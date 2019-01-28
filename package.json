@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node JSONP/requset.js"
+  },
+  "author": "gaoyuhang",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "save": "^2.3.3"
+  }
+}
