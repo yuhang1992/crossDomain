@@ -12,12 +12,10 @@
 运行步骤
 1. `git clone https://github.com/yuhang1992/crossDomain.git`
 2. cross-domain-demo目录下npm install，下载项目所需的依赖
-3. 进入对应的demo目录，①node 对应的demo目录/request.js  ②重新开一个窗口   ③node 对应的demo目录/response.js
 
 ### 1. CORS跨域
 
-node CORS/requset.js
-node CORS/response.js
+npm run cors
 
 项目运行起来之后，
 - 请求数据页面地址： http://localhost:3000
@@ -26,8 +24,7 @@ node CORS/response.js
 
 ### 2. JSONP跨域
 
-node JSONP/requset.js
-node JSONP/response.js
+npm run jsonp
 
 项目运行起来后，
 - 请求页面： http://localhost:3000

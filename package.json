@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node JSONP/requset.js"
+    "cors":"node CORS/requset.js \\&& node CORS/response.js",
+    "jsonp":"node JSONP/requset.js \\&& node JSONP/response.js"
   },
   "author": "gaoyuhang",
   "license": "ISC",
